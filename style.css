@@ -37,7 +37,7 @@
 .nuvem {
     position: absolute;
     width: 300px;
-    animation: nuvem-animation 5s infinite linear;
+    animation: nuvem-animation 10s infinite linear;
 }
 
 @keyframes pipe-animation {
