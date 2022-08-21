@@ -28,9 +28,9 @@ if (pipePosition <= 90 && pipePosition > 0 && marioPosition < 50 ){
     mario.style.bottom= `${marioPosition}px`;
 
     mario.src = "img/luffyderrota.png"
-    mario.style.width = '60px'
-    mario.style.height = '60px'
-    mario.style.marginLeft = '50px'
+    mario.style.width = '100px'
+    mario.style.height = '100px'
+    mario.style.marginLeft = '30px'
 
     clearInterval(loop);
 

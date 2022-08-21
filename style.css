@@ -44,10 +44,10 @@
 .pipe {
     position: absolute;
     bottom: 0;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     right: -80px;
-    animation: pipe-animation 3s infinite linear ;
+    animation: pipe-animation 1.8s infinite linear ;
 }
 
 .mario {
@@ -58,7 +58,7 @@
 }
 
 .jump {
-    animation: jump 500ms ease-out ;
+    animation: jump 800ms ease-in ;
 }
 
 .nuvem {
