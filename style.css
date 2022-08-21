@@ -7,11 +7,25 @@
 #borda{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 600px;
+    width: 700px;
     height: 50px;
     margin: 50px;
     border-radius:10px;
     box-shadow: 5px 5px 5px 5px rgb(53, 0, 40);
+}
+
+#cell {
+    height: 20px;
+    width: 500px;
+    background-color: #abdcf0;
+    border-radius:50px 50px;
+    box-shadow: 3px 3px rgb(160, 183, 233);
+}
+
+#cell:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.733);
+    transition: transform .2s, border 3s;
 }
 
 .game-board {
