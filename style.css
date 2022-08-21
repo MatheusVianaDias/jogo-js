@@ -7,17 +7,20 @@
 #borda{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    max-width: 700px;
-    height: 50px;
-    margin: 50px;
+    max-width: 700%;
+    height: 30px;
+    margin: 5px;
     border-radius:10px;
     box-shadow: 5px 5px 5px 5px rgb(53, 0, 40);
 }
 
 #cell {
-    height: 30px;
-    width: 70px;
-    background-color: #abdcf0;
+    height: 100px;
+    width: 300px;
+    margin: 50px;
+    padding: 20px;
+    border: 20px;
+    background-image: linear-gradient(to right, rgba(226, 113, 113, 0.473) , rgba(139, 194, 245, 0.521));
     border-radius:50px 50px;
     box-shadow: 3px 3px rgb(160, 183, 233);
 }
